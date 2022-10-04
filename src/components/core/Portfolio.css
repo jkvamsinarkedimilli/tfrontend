@@ -1,0 +1,24 @@
+.portfolio {
+  margin-top: 1rem;
+}
+.portfolio-item {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  width: 50%;
+  margin: 1rem auto;
+  background-color: #b0b0b0;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-decoration: none;
+  color: black;
+}
+.portfolio-item h4 {
+  margin: 0;
+  padding: 0;
+}
+.stock-details__pf {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}

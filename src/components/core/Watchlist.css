@@ -1,0 +1,16 @@
+.watchlist{
+    display: flex;
+    justify-content: center;
+}
+.watchlist-table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.watchlist-table th{
+    background-color: #04AA6D;
+}
+.watchlist-table th, .watchlist-table td{
+   padding: 1rem;
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,50 @@
+.container__reports {
+  margin: 1.5rem 2rem;
+}
+.search__reports {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.datepicker__reports {
+  width: 15rem;
+  height: 2rem;
+  outline: none;
+}
+.picker__reports {
+  display: flex;
+  flex-direction: column;
+}
+.picker__reports label {
+  font-weight: bold;
+}
+.button__reports {
+  width: 7rem;
+  height: 2.5rem;
+  align-self: flex-end;
+  outline: none;
+  border: none;
+  border-radius: 50rem;
+  background-color: #008ad8;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: 0.9rem;
+}
+.reports {
+  display: flex;
+  justify-content: center;
+}
+.reports-table {
+  width: 80%;
+  border-collapse: collapse;
+}
+.reports-table th {
+  background-color: #04aa6d;
+}
+.reports-table th,
+.reports-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}

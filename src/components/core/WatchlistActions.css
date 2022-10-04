@@ -1,0 +1,41 @@
+.wa-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.wa-buy{
+    padding: 0.5rem;
+    background-color: rgb(15, 255, 80);
+    outline: none;
+    border: 1px solid rgb(15, 255, 80);
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 4rem;
+    color: white;
+    cursor: pointer;
+}
+.wa-sell{
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: red;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 4rem;
+    color: white;
+}
+.wa-rm{
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: gray;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+}
