@@ -5,12 +5,12 @@
   gap: 1rem;
   margin: 3rem auto;
   width: 30rem;
-  background-color: white;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background: rgb(211, 210, 210);
 }
 .login-form__user-validation > div,
 .register-form__user-validation > div {
@@ -22,6 +22,9 @@
   width: 30rem;
   height: 2rem;
   outline: none;
+  border-radius: 5px;
+  outline: 1px solid gray;
+  border: 1px solid gray;
 }
 .login-form__user-validation > div > label,
 .register-form__user-validation > div > label {
@@ -38,10 +41,10 @@
   font-size: 1.1rem;
   cursor: pointer;
 }
-.login-form__user-validation > div > input:focus,
-.register-form__user-validation > div > input:focus {
-  border: solid rgb(146, 216, 244);
-}
 .hidden {
   display: none;
+}
+.error{
+  color: red;
+  font-size: 14px;
 }

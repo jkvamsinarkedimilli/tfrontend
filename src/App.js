@@ -10,6 +10,7 @@ import Stock from './components/core/Stock';
 import UserValidation from './components/user-validation/UserValidation';
 import { useContext } from 'react';
 import AuthContext from './context/AuthContext';
+import Profile from './components/core/Profile';
 function App() {
   const authContext = useContext(AuthContext);
   return (
@@ -41,6 +42,11 @@ function App() {
         {authContext.isLoggedIn && (
           <Route path="/stocks/:stockname">
             <Stock />
+          </Route>
+        )}
+        {authContext.isLoggedIn && (
+          <Route path="/profile">
+            <Profile/>
           </Route>
         )}
         <Route path="*">

@@ -3,14 +3,14 @@ import { useLocation } from 'react-router-dom';
 import NotFound from '../../UI/NotFound';
 import LoginForm from './Login';
 import RegisterForm from './Register';
-import './UserValidation.css';
+import classes from './UserValidation.module.css';
 const UserValidation = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const verifyMethod = queryParams.get('method');
   const [isLogin, setIsLogin] = useState(false);
   return (
-    <div className="uservalidation-form">
+    <div className={classes['uservalidation-form']}>
       {verifyMethod === 'login' && (
         <LoginForm isUserLogin={isLogin} setUserLogin={setIsLogin} />
       )}

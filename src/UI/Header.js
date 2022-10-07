@@ -28,7 +28,7 @@ const Header = () => {
         {isLoggedIn && (
           <ul className="links">
             <li className="link">
-              <Link to="/user-verification?method=login">Profile</Link>
+              <Link to="/profile">Profile</Link>
             </li>
             <li className="link">
               <button className="logout-button" onClick={logoutHandler}>
